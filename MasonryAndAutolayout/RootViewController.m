@@ -9,6 +9,10 @@
 #import "RootViewController.h"
 #import "ScrollerViewController.h"
 #import "EqualPaddingCotroller.h"
+#import "TwoLabelViewController.h"
+#import "DiferentHeightCellController.h"
+#import "BaseLineViewController.h"
+#import "ExpendCellController.h"
 #import <Masonry.h>
 
 @interface RootViewController()<UITableViewDelegate,UITableViewDataSource>
@@ -60,6 +64,26 @@
             [self.navigationController pushViewController:scroll animated:YES];
         }
             break;
+        case 2:{
+            TwoLabelViewController * scroll = [[TwoLabelViewController alloc]init];
+            [self.navigationController pushViewController:scroll animated:YES];
+        }
+            break;
+        case 3:{
+            DiferentHeightCellController * scroll = [[DiferentHeightCellController alloc]init];
+            [self.navigationController pushViewController:scroll animated:YES];
+        }
+            break;
+        case 4:{
+            BaseLineViewController * scroll = [[BaseLineViewController alloc]init];
+            [self.navigationController pushViewController:scroll animated:YES];
+        }
+            break;
+        case 5:{
+            ExpendCellController * scroll = [[ExpendCellController alloc]init];
+            [self.navigationController pushViewController:scroll animated:YES];
+        }
+            break;
         default:
             break;
     }
@@ -96,7 +120,7 @@
 
 - (NSArray *)dataArray{
     if (!_dataArray) {
-        _dataArray = @[@"ScrollerView布局",@"等间距排列的view"];
+        _dataArray = @[@"ScrollerView布局",@"等间距排列的view",@"并排两个label，右边label优先级高",@"变高的cell",@"baseLine",@"动态展开tableviewCell"];
     }
     return _dataArray;
 }

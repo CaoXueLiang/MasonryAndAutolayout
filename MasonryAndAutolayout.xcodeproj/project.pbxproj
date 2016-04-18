@@ -17,6 +17,16 @@
 		C33542A21CC4954900701758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33542A01CC4954900701758 /* LaunchScreen.storyboard */; };
 		C33542AD1CC4954900701758 /* MasonryAndAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542AC1CC4954900701758 /* MasonryAndAutolayoutTests.m */; };
 		C33542B81CC4954900701758 /* MasonryAndAutolayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542B71CC4954900701758 /* MasonryAndAutolayoutUITests.m */; };
+		C3DC1A261CC4ACE800A73488 /* TwoLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A251CC4ACE800A73488 /* TwoLabelViewController.m */; };
+		C3DC1A291CC4BA7500A73488 /* DiferentHeightCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A281CC4BA7500A73488 /* DiferentHeightCellController.m */; };
+		C3DC1A2C1CC4BD2500A73488 /* DifferentHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A2B1CC4BD2500A73488 /* DifferentHeightCell.m */; };
+		C3DC1A2F1CC4BEA100A73488 /* DataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A2E1CC4BEA100A73488 /* DataEntity.m */; };
+		C3DC1A331CC4C38400A73488 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A321CC4C38400A73488 /* Common.m */; };
+		C3DC1A361CC4CEFD00A73488 /* BaseLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A351CC4CEFD00A73488 /* BaseLineViewController.m */; };
+		C3DC1A391CC4D00300A73488 /* BaseLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A381CC4D00300A73488 /* BaseLineView.m */; };
+		C3DC1A3C1CC4E77500A73488 /* ExpendCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A3B1CC4E77500A73488 /* ExpendCellController.m */; };
+		C3DC1A3F1CC4E80000A73488 /* ExpendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */; };
+		C3DC1A421CC4E84100A73488 /* ExpendDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */; };
 		F08081C0E5262D8908CD39F8 /* libPods-MasonryAndAutolayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B609F5F8DEE081124AE11F4 /* libPods-MasonryAndAutolayout.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +71,26 @@
 		C33542B31CC4954900701758 /* MasonryAndAutolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryAndAutolayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33542B71CC4954900701758 /* MasonryAndAutolayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryAndAutolayoutUITests.m; sourceTree = "<group>"; };
 		C33542B91CC4954900701758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DC1A241CC4ACE800A73488 /* TwoLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoLabelViewController.h; sourceTree = "<group>"; };
+		C3DC1A251CC4ACE800A73488 /* TwoLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoLabelViewController.m; sourceTree = "<group>"; };
+		C3DC1A271CC4BA7500A73488 /* DiferentHeightCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiferentHeightCellController.h; sourceTree = "<group>"; };
+		C3DC1A281CC4BA7500A73488 /* DiferentHeightCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiferentHeightCellController.m; sourceTree = "<group>"; };
+		C3DC1A2A1CC4BD2500A73488 /* DifferentHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifferentHeightCell.h; sourceTree = "<group>"; };
+		C3DC1A2B1CC4BD2500A73488 /* DifferentHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifferentHeightCell.m; sourceTree = "<group>"; };
+		C3DC1A2D1CC4BEA100A73488 /* DataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEntity.h; sourceTree = "<group>"; };
+		C3DC1A2E1CC4BEA100A73488 /* DataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEntity.m; sourceTree = "<group>"; };
+		C3DC1A311CC4C38400A73488 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C3DC1A321CC4C38400A73488 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		C3DC1A341CC4CEFD00A73488 /* BaseLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLineViewController.h; sourceTree = "<group>"; };
+		C3DC1A351CC4CEFD00A73488 /* BaseLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLineViewController.m; sourceTree = "<group>"; };
+		C3DC1A371CC4D00300A73488 /* BaseLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLineView.h; sourceTree = "<group>"; };
+		C3DC1A381CC4D00300A73488 /* BaseLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLineView.m; sourceTree = "<group>"; };
+		C3DC1A3A1CC4E77500A73488 /* ExpendCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendCellController.h; sourceTree = "<group>"; };
+		C3DC1A3B1CC4E77500A73488 /* ExpendCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendCellController.m; sourceTree = "<group>"; };
+		C3DC1A3D1CC4E80000A73488 /* ExpendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendCell.h; sourceTree = "<group>"; };
+		C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendCell.m; sourceTree = "<group>"; };
+		C3DC1A401CC4E84100A73488 /* ExpendDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendDataEntity.h; sourceTree = "<group>"; };
+		C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendDataEntity.m; sourceTree = "<group>"; };
 		C7EBFBF005BFE4A69B1103B9 /* Pods-MasonryAndAutolayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAndAutolayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryAndAutolayout/Pods-MasonryAndAutolayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +142,7 @@
 			children = (
 				C30663E91CC4A31900FA9AF4 /* UIView+LJC.h */,
 				C30663EA1CC4A31900FA9AF4 /* UIView+LJC.m */,
+				C3DC1A301CC4C38400A73488 /* Common */,
 				C33542911CC4954900701758 /* MasonryAndAutolayout */,
 				C33542AB1CC4954900701758 /* MasonryAndAutolayoutTests */,
 				C33542B61CC4954900701758 /* MasonryAndAutolayoutUITests */,
@@ -146,6 +177,24 @@
 				C30663E41CC49EA800FA9AF4 /* ScrollerViewController.m */,
 				C30663E61CC49EC800FA9AF4 /* EqualPaddingCotroller.h */,
 				C30663E71CC49EC800FA9AF4 /* EqualPaddingCotroller.m */,
+				C3DC1A241CC4ACE800A73488 /* TwoLabelViewController.h */,
+				C3DC1A251CC4ACE800A73488 /* TwoLabelViewController.m */,
+				C3DC1A271CC4BA7500A73488 /* DiferentHeightCellController.h */,
+				C3DC1A281CC4BA7500A73488 /* DiferentHeightCellController.m */,
+				C3DC1A2A1CC4BD2500A73488 /* DifferentHeightCell.h */,
+				C3DC1A2B1CC4BD2500A73488 /* DifferentHeightCell.m */,
+				C3DC1A2D1CC4BEA100A73488 /* DataEntity.h */,
+				C3DC1A2E1CC4BEA100A73488 /* DataEntity.m */,
+				C3DC1A341CC4CEFD00A73488 /* BaseLineViewController.h */,
+				C3DC1A351CC4CEFD00A73488 /* BaseLineViewController.m */,
+				C3DC1A371CC4D00300A73488 /* BaseLineView.h */,
+				C3DC1A381CC4D00300A73488 /* BaseLineView.m */,
+				C3DC1A3A1CC4E77500A73488 /* ExpendCellController.h */,
+				C3DC1A3B1CC4E77500A73488 /* ExpendCellController.m */,
+				C3DC1A3D1CC4E80000A73488 /* ExpendCell.h */,
+				C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */,
+				C3DC1A401CC4E84100A73488 /* ExpendDataEntity.h */,
+				C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */,
 			);
 			path = MasonryAndAutolayout;
 			sourceTree = "<group>";
@@ -174,6 +223,15 @@
 				C33542B91CC4954900701758 /* Info.plist */,
 			);
 			path = MasonryAndAutolayoutUITests;
+			sourceTree = "<group>";
+		};
+		C3DC1A301CC4C38400A73488 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC1A311CC4C38400A73488 /* Common.h */,
+				C3DC1A321CC4C38400A73488 /* Common.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,12 +414,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DC1A331CC4C38400A73488 /* Common.m in Sources */,
+				C3DC1A3F1CC4E80000A73488 /* ExpendCell.m in Sources */,
+				C3DC1A3C1CC4E77500A73488 /* ExpendCellController.m in Sources */,
 				C30663E51CC49EA800FA9AF4 /* ScrollerViewController.m in Sources */,
 				C33542971CC4954900701758 /* AppDelegate.m in Sources */,
+				C3DC1A2F1CC4BEA100A73488 /* DataEntity.m in Sources */,
+				C3DC1A261CC4ACE800A73488 /* TwoLabelViewController.m in Sources */,
+				C3DC1A361CC4CEFD00A73488 /* BaseLineViewController.m in Sources */,
+				C3DC1A421CC4E84100A73488 /* ExpendDataEntity.m in Sources */,
+				C3DC1A2C1CC4BD2500A73488 /* DifferentHeightCell.m in Sources */,
+				C3DC1A391CC4D00300A73488 /* BaseLineView.m in Sources */,
 				C30663EB1CC4A31900FA9AF4 /* UIView+LJC.m in Sources */,
 				C33542941CC4954900701758 /* main.m in Sources */,
 				C30663E81CC49EC800FA9AF4 /* EqualPaddingCotroller.m in Sources */,
 				C30663E21CC49A6C00FA9AF4 /* RootViewController.m in Sources */,
+				C3DC1A291CC4BA7500A73488 /* DiferentHeightCellController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
