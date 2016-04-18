@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30663E21CC49A6C00FA9AF4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30663E11CC49A6C00FA9AF4 /* RootViewController.m */; };
+		C30663E51CC49EA800FA9AF4 /* ScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30663E41CC49EA800FA9AF4 /* ScrollerViewController.m */; };
+		C30663E81CC49EC800FA9AF4 /* EqualPaddingCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C30663E71CC49EC800FA9AF4 /* EqualPaddingCotroller.m */; };
+		C30663EB1CC4A31900FA9AF4 /* UIView+LJC.m in Sources */ = {isa = PBXBuildFile; fileRef = C30663EA1CC4A31900FA9AF4 /* UIView+LJC.m */; };
 		C33542941CC4954900701758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542931CC4954900701758 /* main.m */; };
 		C33542971CC4954900701758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542961CC4954900701758 /* AppDelegate.m */; };
-		C335429A1CC4954900701758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542991CC4954900701758 /* ViewController.m */; };
-		C335429D1CC4954900701758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C335429B1CC4954900701758 /* Main.storyboard */; };
 		C335429F1CC4954900701758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C335429E1CC4954900701758 /* Assets.xcassets */; };
 		C33542A21CC4954900701758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33542A01CC4954900701758 /* LaunchScreen.storyboard */; };
 		C33542AD1CC4954900701758 /* MasonryAndAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33542AC1CC4954900701758 /* MasonryAndAutolayoutTests.m */; };
@@ -38,13 +40,18 @@
 /* Begin PBXFileReference section */
 		0B609F5F8DEE081124AE11F4 /* libPods-MasonryAndAutolayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryAndAutolayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E7BF1B13B31189E5362341 /* Pods-MasonryAndAutolayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAndAutolayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryAndAutolayout/Pods-MasonryAndAutolayout.release.xcconfig"; sourceTree = "<group>"; };
+		C30663E01CC49A6C00FA9AF4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C30663E11CC49A6C00FA9AF4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C30663E31CC49EA800FA9AF4 /* ScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollerViewController.h; sourceTree = "<group>"; };
+		C30663E41CC49EA800FA9AF4 /* ScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewController.m; sourceTree = "<group>"; };
+		C30663E61CC49EC800FA9AF4 /* EqualPaddingCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualPaddingCotroller.h; sourceTree = "<group>"; };
+		C30663E71CC49EC800FA9AF4 /* EqualPaddingCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualPaddingCotroller.m; sourceTree = "<group>"; };
+		C30663E91CC4A31900FA9AF4 /* UIView+LJC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJC.h"; sourceTree = "<group>"; };
+		C30663EA1CC4A31900FA9AF4 /* UIView+LJC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJC.m"; sourceTree = "<group>"; };
 		C335428F1CC4954900701758 /* MasonryAndAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryAndAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33542931CC4954900701758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C33542951CC4954900701758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C33542961CC4954900701758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C33542981CC4954900701758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C33542991CC4954900701758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C335429C1CC4954900701758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C335429E1CC4954900701758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33542A11CC4954900701758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33542A31CC4954900701758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +110,8 @@
 		C33542861CC4954900701758 = {
 			isa = PBXGroup;
 			children = (
+				C30663E91CC4A31900FA9AF4 /* UIView+LJC.h */,
+				C30663EA1CC4A31900FA9AF4 /* UIView+LJC.m */,
 				C33542911CC4954900701758 /* MasonryAndAutolayout */,
 				C33542AB1CC4954900701758 /* MasonryAndAutolayoutTests */,
 				C33542B61CC4954900701758 /* MasonryAndAutolayoutUITests */,
@@ -127,13 +136,16 @@
 			children = (
 				C33542951CC4954900701758 /* AppDelegate.h */,
 				C33542961CC4954900701758 /* AppDelegate.m */,
-				C33542981CC4954900701758 /* ViewController.h */,
-				C33542991CC4954900701758 /* ViewController.m */,
-				C335429B1CC4954900701758 /* Main.storyboard */,
 				C335429E1CC4954900701758 /* Assets.xcassets */,
 				C33542A01CC4954900701758 /* LaunchScreen.storyboard */,
 				C33542A31CC4954900701758 /* Info.plist */,
 				C33542921CC4954900701758 /* Supporting Files */,
+				C30663E01CC49A6C00FA9AF4 /* RootViewController.h */,
+				C30663E11CC49A6C00FA9AF4 /* RootViewController.m */,
+				C30663E31CC49EA800FA9AF4 /* ScrollerViewController.h */,
+				C30663E41CC49EA800FA9AF4 /* ScrollerViewController.m */,
+				C30663E61CC49EC800FA9AF4 /* EqualPaddingCotroller.h */,
+				C30663E71CC49EC800FA9AF4 /* EqualPaddingCotroller.m */,
 			);
 			path = MasonryAndAutolayout;
 			sourceTree = "<group>";
@@ -272,7 +284,6 @@
 			files = (
 				C33542A21CC4954900701758 /* LaunchScreen.storyboard in Resources */,
 				C335429F1CC4954900701758 /* Assets.xcassets in Resources */,
-				C335429D1CC4954900701758 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +356,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C335429A1CC4954900701758 /* ViewController.m in Sources */,
+				C30663E51CC49EA800FA9AF4 /* ScrollerViewController.m in Sources */,
 				C33542971CC4954900701758 /* AppDelegate.m in Sources */,
+				C30663EB1CC4A31900FA9AF4 /* UIView+LJC.m in Sources */,
 				C33542941CC4954900701758 /* main.m in Sources */,
+				C30663E81CC49EC800FA9AF4 /* EqualPaddingCotroller.m in Sources */,
+				C30663E21CC49A6C00FA9AF4 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C335429B1CC4954900701758 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C335429C1CC4954900701758 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C33542A01CC4954900701758 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

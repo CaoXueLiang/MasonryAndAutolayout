@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScrollerViewController.h
 //  MasonryAndAutolayout
 //
 //  Created by 曹学亮 on 16/4/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScrollerViewController : UIViewController
 
 @end
-
