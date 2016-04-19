@@ -13,6 +13,7 @@
 #import "DiferentHeightCellController.h"
 #import "BaseLineViewController.h"
 #import "ExpendCellController.h"
+#import "IntrinsicContentSizeController.h"
 #import <Masonry.h>
 
 @interface RootViewController()<UITableViewDelegate,UITableViewDataSource>
@@ -84,6 +85,11 @@
             [self.navigationController pushViewController:scroll animated:YES];
         }
             break;
+        case 6:{
+            IntrinsicContentSizeController * scroll = [[IntrinsicContentSizeController alloc]init];
+            [self.navigationController pushViewController:scroll animated:YES];
+        }
+            break;
         default:
             break;
     }
@@ -120,7 +126,7 @@
 
 - (NSArray *)dataArray{
     if (!_dataArray) {
-        _dataArray = @[@"ScrollerView布局",@"等间距排列的view",@"并排两个label，右边label优先级高",@"变高的cell",@"baseLine",@"动态展开tableviewCell"];
+        _dataArray = @[@"ScrollerView布局",@"等间距排列的view",@"并排两个label，右边label优先级高",@"变高的cell",@"baseLine",@"动态展开tableviewCell",@"理解IntrinsicContentSize"];
     }
     return _dataArray;
 }

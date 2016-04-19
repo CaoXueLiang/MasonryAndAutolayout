@@ -27,6 +27,7 @@
 		C3DC1A3C1CC4E77500A73488 /* ExpendCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A3B1CC4E77500A73488 /* ExpendCellController.m */; };
 		C3DC1A3F1CC4E80000A73488 /* ExpendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */; };
 		C3DC1A421CC4E84100A73488 /* ExpendDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */; };
+		C3DC1A451CC5E35900A73488 /* IntrinsicContentSizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1A441CC5E35900A73488 /* IntrinsicContentSizeController.m */; };
 		F08081C0E5262D8908CD39F8 /* libPods-MasonryAndAutolayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B609F5F8DEE081124AE11F4 /* libPods-MasonryAndAutolayout.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendCell.m; sourceTree = "<group>"; };
 		C3DC1A401CC4E84100A73488 /* ExpendDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendDataEntity.h; sourceTree = "<group>"; };
 		C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendDataEntity.m; sourceTree = "<group>"; };
+		C3DC1A431CC5E35900A73488 /* IntrinsicContentSizeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicContentSizeController.h; sourceTree = "<group>"; };
+		C3DC1A441CC5E35900A73488 /* IntrinsicContentSizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentSizeController.m; sourceTree = "<group>"; };
 		C7EBFBF005BFE4A69B1103B9 /* Pods-MasonryAndAutolayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAndAutolayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryAndAutolayout/Pods-MasonryAndAutolayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +198,8 @@
 				C3DC1A3E1CC4E80000A73488 /* ExpendCell.m */,
 				C3DC1A401CC4E84100A73488 /* ExpendDataEntity.h */,
 				C3DC1A411CC4E84100A73488 /* ExpendDataEntity.m */,
+				C3DC1A431CC5E35900A73488 /* IntrinsicContentSizeController.h */,
+				C3DC1A441CC5E35900A73488 /* IntrinsicContentSizeController.m */,
 			);
 			path = MasonryAndAutolayout;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				C3DC1A361CC4CEFD00A73488 /* BaseLineViewController.m in Sources */,
 				C3DC1A421CC4E84100A73488 /* ExpendDataEntity.m in Sources */,
 				C3DC1A2C1CC4BD2500A73488 /* DifferentHeightCell.m in Sources */,
+				C3DC1A451CC5E35900A73488 /* IntrinsicContentSizeController.m in Sources */,
 				C3DC1A391CC4D00300A73488 /* BaseLineView.m in Sources */,
 				C30663EB1CC4A31900FA9AF4 /* UIView+LJC.m in Sources */,
 				C33542941CC4954900701758 /* main.m in Sources */,
